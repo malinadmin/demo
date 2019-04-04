@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?17ptin');
+  src: url('fonts/icomoon.eot?17ptin#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?17ptin') format('truetype'),
+  url('fonts/icomoon.woff?17ptin') format('woff'),
+  url('fonts/icomoon.svg?17ptin#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="menu-"], [class*=" menu-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-gonggao:before {
+  content: "\e90b";
+}
+
+.menu-home:before {
+  content: "\e90c";
+}
+
+.menu-daiban:before {
+  content: "\e900";
+}
+
+.menu-map:before {
+  content: "\e901";
+}
+
+.menu-liulan:before {
+  content: "\e902";
+}
+
+.menu-shoujian:before {
+  content: "\e903";
+}
+
+.menu-exit:before {
+  content: "\e904";
+}
+
+.menu-mycy:before {
+  content: "\e905";
+}
+
+.menu-mycj:before {
+  content: "\e906";
+}
+
+.menu-my:before {
+  content: "\e907";
+}
+
+.menu-myfuzhe:before {
+  content: "\e908";
+}
+
+.menu-myguanzhu:before {
+  content: "\e909";
+}
+
+.menu-myzhuban:before {
+  content: "\e90a";
+}
+
+.mint-header {
+  background: #df0606;
+}
+
+a, a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+.mint-header a {
+  color: #fff;
+}
+
+.home_bottom .router-link-active p, .home_bottom .router-link-active i {
+  color: #df0606;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.nodata {
+  font-size: 14px;
+  color: #666;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.radio .mint-cell {
+  display: inline-block;
+  color: #999;
+}
+
+.radio .mint-cell-wrapper {
+  background-image: none;
+  font-size: 15px;
+}
+
+.radio .mint-cell:last-child {
+  background-image: none;
+}
+
+.radio .mint-field-core {
+  border: 1px solid #ddd;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+.loding span div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#PicUpload {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  padding: 10px;
+}
+
+#PicUpload li {
+  flex: 0 0 33.3333%;
+  text-align: center;
+}
+
+#PicUpload li img {
+  width: 95%;
+  height: 2rem;
+}
+
+.attention button {
+  border: 0;
+}
+
+#PicUpload li span {
+  display: block;
+  color: #ed162b;
+}
+
+.navhome span {
+  color: #666;
+  font-size: 13px;
+}
+
+.navhome .van-tab--active span {
+  color: #e60012;
+}
+
+.menulist .van-cell__left-icon {
+  color: #ff6255;
+}
+
+.navhome .van-tabs__wrap {
+  display: none;
+}
+
+.navhome {
+  padding-top: 0px !important;
+}
+
+.table .van-cell {
+  color: #2a5bc9;
+  padding: 10px 0px;
+}
+/*flex最外框*/
+.page {
+
+}
+
+/*flex内容区*/
+.content {
+  margin: 46px 0px;
+}
+
+/*flex头部*/
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+
+/*flex底部，按钮平均分布*/
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+}
+
+
+
